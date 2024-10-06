@@ -1,4 +1,4 @@
-# Countries, States, Cities PHP Package
+# Countries, States, Cities, Phone Codes, Country ISO2 Code PHP Package
 
 A PHP package that provides information about countries, states, cities, ISO2 codes, and phone codes. This package is designed for easy integration into PHP applications to fetch location-related data.
 
