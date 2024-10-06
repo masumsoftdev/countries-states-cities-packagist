@@ -1,0 +1,20 @@
+{
+    "name": "masum-packagist/countries-states-cities-php",
+    "description": "A PHP package for retrieving countries, states, cities, ISO2 codes, and phone codes.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MasumPackagist\\CountriesStatesCitiesPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Masum Billah",
+            "email": "office.hellomasum@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "stable",
+    "version": "1.0.0"
+}
