@@ -63,10 +63,23 @@ Example:
 - **Description**: Returns an array of phone codes for all countries.
 - **Usage**: Call the method to get all phone codes.
 
+## Changelog
+
+### [1.0.1]
+- **Added**: Security checks to ensure the data is loaded before accessing it in all methods.
+- **Improved**: Moved data loading logic from the constructor to a dedicated `loadData()` method for better control and optimization.
+- **Fixed**: Potential issue with methods accessing uninitialized data.
+
+### [1.0.0]
+- Initial release of the package.
+- Includes methods for fetching countries, states, cities, ISO2 codes, and phone codes.
+
+
 ## Contributing
 
 Feel free to submit issues or pull requests if you encounter any bugs or have suggestions for improvements.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the LICENSE file for details.
+
