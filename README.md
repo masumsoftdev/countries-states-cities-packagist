@@ -31,7 +31,10 @@ use MasumPackagist\CountriesStatesCitiesPhp\Data;
 To use the package, you need to create an instance of the `Data` class.
 
 Example: 
-`$data = new Data();`
+```php
+$data = new Data();
+
+```
 
 ### 2. Available Methods
 
