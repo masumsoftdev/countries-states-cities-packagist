@@ -15,7 +15,16 @@ To install this package, use Composer:
 
 `composer require masum-packagist/countries-states-cities-php`
 
-## Usage
+After installing, you can include the library in your project like this:
+
+```php
+<?php
+
+require 'vendor/autoload.php';
+
+use MasumPackagist\CountriesStatesCitiesPhp\Data; 
+
+```
 
 ### 1. Creating an Object
 
